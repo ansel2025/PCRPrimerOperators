@@ -1,9 +1,7 @@
 # PCRPrimerOperators
 ## PCRPrimerVerifier
 ### Basic
-Shows the enclosed transcripts by user-provided primer pairs 
-
-To run to program
+Shows the enclosed transcripts by user-provided primer pairs. To run to program
 > java -jar PrimersToTranscripts.jar 
 This package requires four parameters.
 Usage: java -jar PrimersToTranscripts genome.fa anno.gtf primer_5F primer_3R
