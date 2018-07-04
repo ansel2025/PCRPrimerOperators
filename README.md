@@ -1,4 +1,6 @@
-# PCRPrimerVerifier
+# PCRPrimerOperators
+## PCRPrimerVerifier
+### Basic
 Shows the enclosed transcripts by user-provided primer pairs 
 
 To run to program
@@ -6,7 +8,7 @@ To run to program
 This package requires four parameters.
 Usage: java -jar PrimersToTranscripts genome.fa anno.gtf primer_5F primer_3R
 
-## Example 
+### Examples
 Find which transcripts will be amplified by 
 5F: GTTCCCTGATGATCAGACTCAG
 3R: CAGTCTGCAACTTATCTGTGGGCC
@@ -28,3 +30,4 @@ GTTCCCTGATGATCAGACTCAGAAAATTTTGGAAAGAGAAGATGCTCGGCTGATGTCATGGCTCCGATCTTCATCTTGAA
 
 The results are in the fasta format that with the overlapped isoforms and the enclosed sequences including both sides of primers.
 
+## PCRPrimerSearcher
