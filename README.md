@@ -17,7 +17,9 @@ The genome fasta file is from Ensembl website and the gtf file is obtained from
 ftp://ftp.ensembl.org/pub/release-92/fasta/
 ftp://ftp.ensembl.org/pub/release-92/gtf/
 
-or here are two files for human. Both of them are needed.
+Different species can be selected.
+
+Or here are two files for human. Both of them are needed.
 ftp://ftp.ensembl.org/pub/release-92/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 ftp://ftp.ensembl.org/pub/release-92/gtf/homo_sapiens/Homo_sapiens.GRCh38.92.gtf.gz
 
