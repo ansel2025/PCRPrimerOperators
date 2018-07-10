@@ -37,5 +37,8 @@ GTTCCCTGATGATCAGACTCAGAAAATTTTGGAAAGAGAAGATGCTCGGCTGATGTCATGGCTCCGATCTTCATCTTGAA
 GTTCCCTGATGATCAGACTCAGAAAATTTTGGAAAGAGAAGATGCTCGGCTGATGTCATGGCTCCGATCTTCATCTTGAAGAAGAGTGACATTGGGTGACTGCTGCTTGGAAAACTGTCCACACTTGCTACTCTTTGAGAATGAAGTTGTCATTCAGGGCCCCTCATGTAGCCAAAAGACCAAGAAAAATCTGGCCCACAGATAAGTTGCAGACTG
 
 The results are in the fasta format that with the overlapped isoforms and the enclosed sequences including both sides of primers.
+In this example, three isoforms, 001, 005 and 006 of GOLGA4 has been found that will be amplified using the given primers. Their ensembl ids im the provided gtf file are ENST00000361924, ENST00000356847, and ENST00000356847.
+The location of primers on genome coordintes is from 37355133-37366240 (strandless) and the lengths of the flanking region are either 279 bps 216 bps.
+
 
 ## PCRPrimerSearcher
