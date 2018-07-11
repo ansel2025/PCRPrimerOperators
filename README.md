@@ -3,12 +3,12 @@
 ### Basic
 Shows the enclosed transcripts by user-provided primer pairs. To run to program
 
-`> java -jar PrimersToTranscripts.jar 
+> java -jar PrimersToTranscripts.jar 
 
 This package requires four parameters.
-Usage: java -jar PrimersToTranscripts genome.fa anno.gtf primer_5F primer_3R`
+Usage: java -jar PrimersToTranscripts genome.fa anno.gtf primer_5F primer_3R
 
-The package takes four parameters.
+The details of the four parameters:
 1. A reference genome file in FASTA format.
 2. A genome annotation file, in GTF format, contains information of genes, such as their locations, region, chromosomes.
 3. A five prime end PCR primer.
