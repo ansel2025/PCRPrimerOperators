@@ -21,13 +21,17 @@ Find which transcripts will be amplified by
 3R: CAGTCTGCAACTTATCTGTGGGCC
 
 The genome fasta file is from Ensembl website and the gtf file is obtained from 
+
 ftp://ftp.ensembl.org/pub/release-92/fasta/
+
 ftp://ftp.ensembl.org/pub/release-92/gtf/
 
 Different species can be downloaded and used for reference.
 
 Or here are two files for human. Both of them are needed.
+
 ftp://ftp.ensembl.org/pub/release-92/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+
 ftp://ftp.ensembl.org/pub/release-92/gtf/homo_sapiens/Homo_sapiens.GRCh38.92.gtf.gz
 
 We only tested on GRCh38 and haven't tried on GRCh37.
