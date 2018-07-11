@@ -22,7 +22,7 @@ Find which transcripts will be amplified by
 
 The genome fasta file is from Ensembl website and the gtf file is obtained from 
 
-ftp://ftp.ensembl.org/pub/release-92/fasta/
+[ftp://ftp.ensembl.org/pub/release-92/fasta/]
 
 ftp://ftp.ensembl.org/pub/release-92/gtf/
 
