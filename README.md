@@ -33,8 +33,7 @@ ftp://ftp.ensembl.org/pub/release-92/gtf/homo_sapiens/Homo_sapiens.GRCh38.92.gtf
 We only tested on GRCh38 and haven't tried on GRCh37.
 
 package@machine$ java -Xmx10g -jar PrimersToTranscripts.jar Homo_sapiens.GRCh38.
-92.dna.primary_assembly.chr21.fa.gz Homo_sapiens.GRCh38.92.chr21.gtf.gz TGGCTCAG
-CGCCTGGCGGGGAATG ACCTTCAGCAGCTCGTCGTGCGTA
+92.dna.primary_assembly.chr21.fa.gz Homo_sapiens.GRCh38.92.chr21.gtf.gz TGGCTCAGCGCCTGGCGGGGAATG ACCTTCAGCAGCTCGTCGTGCGTA
 
 \>ENST00000492638        RRP1-206        +21:43789667-43791380(127)
 TGGCTCAGCGCCTGGCGGGGAATGAGCAGGTGACCCGGGACCGGGCGGTGAGGAAGCTCCGGAAATACATCGTCGCCAGG
