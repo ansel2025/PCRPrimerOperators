@@ -9,10 +9,10 @@ This package requires four parameters.
 Usage: java -jar PrimersToTranscripts genome.fa anno.gtf primer_5F primer_3R
 
 The package takes four parameters.
-1. A reference genome in FASTA format.
-2. A genome annotation file contains information of genes, such as their locations, region, chromosomes.
+1. A reference genome file in FASTA format.
+2. A genome annotation file, in GTF format, contains information of genes, such as their locations, region, chromosomes.
 3. A five prime end PCR primer.
-4. A three prime end PCR primer.
+4. A three prime end PCR primer (on the reverse strand of the above five prime end primer).
 
 
 ### Examples
