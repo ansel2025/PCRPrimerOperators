@@ -53,8 +53,8 @@ TGGCTCAGCGCCTGGCGGGGAATGAGCAGGTGGTTTTACGCACGACGAGCTGCTGAAGGT
 
 
 The results are in the fasta format that with the overlapped isoforms and the enclosed sequences including both sides of primers.
-In this example, three isoforms, 001, 005 and 006 of GOLGA4 has been found that will be amplified using the given primers. Their ensembl ids im the provided gtf file are ENST00000361924, ENST00000356847, and ENST00000356847.
-The location of primers on genome coordintes is at chromosome 3 from 37355133-37366240 (strandless) and the lengths of the flanking region are either 279 bps 216 bps.
+In this example, three isoforms, 204, 205, 206 and 207 of Ribosomal RNA Processing 1 (RRP1) has been found that will be amplified using the given primers. Their ensembl ids im the provided gtf file are ENST00000492638, ENST00000497547, ENST00000483896, and ENST00000475534.
+The location of primers on genome coordintes is on the positive strand at chromosome 21 from 43789667-43791380 and the lengths of the flanking region are 60 bps, 127 bps, or 168 bps.
 
 
 ## PCRPrimerSearcher
