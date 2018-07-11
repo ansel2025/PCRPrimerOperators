@@ -8,6 +8,13 @@ Shows the enclosed transcripts by user-provided primer pairs. To run to program
 This package requires four parameters.
 Usage: java -jar PrimersToTranscripts genome.fa anno.gtf primer_5F primer_3R
 
+The package takes four parameters.
+1. A reference genome in FASTA format.
+2. A genome annotation file contains information of genes, such as their locations, region, chromosomes.
+3. A five prime end PCR primer.
+4. A three prime end PCR primer.
+
+
 ### Examples
 Find which transcripts will be amplified by 
 5F: GTTCCCTGATGATCAGACTCAG
@@ -17,7 +24,7 @@ The genome fasta file is from Ensembl website and the gtf file is obtained from
 ftp://ftp.ensembl.org/pub/release-92/fasta/
 ftp://ftp.ensembl.org/pub/release-92/gtf/
 
-Different species can be selected.
+Different species can be downloaded and used for reference.
 
 Or here are two files for human. Both of them are needed.
 ftp://ftp.ensembl.org/pub/release-92/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
@@ -38,7 +45,8 @@ GTTCCCTGATGATCAGACTCAGAAAATTTTGGAAAGAGAAGATGCTCGGCTGATGTCATGGCTCCGATCTTCATCTTGAA
 
 The results are in the fasta format that with the overlapped isoforms and the enclosed sequences including both sides of primers.
 In this example, three isoforms, 001, 005 and 006 of GOLGA4 has been found that will be amplified using the given primers. Their ensembl ids im the provided gtf file are ENST00000361924, ENST00000356847, and ENST00000356847.
-The location of primers on genome coordintes is from 37355133-37366240 (strandless) and the lengths of the flanking region are either 279 bps 216 bps.
+The location of primers on genome coordintes is at chromosome 3 from 37355133-37366240 (strandless) and the lengths of the flanking region are either 279 bps 216 bps.
 
 
 ## PCRPrimerSearcher
+
